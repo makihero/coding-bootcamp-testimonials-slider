@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./output.css">
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+</head>
+<body class="font-inter">
+  <article class="p-6 text-center m-auto bg-[url('../images/pattern-curve.svg')] bg-contain bg-no-repeat bg-bottom 
+                 lg:flex lg:flex-row-reverse lg:m-[50px_auto] lg:relative lg:max-w-[1440px] lg:pb-80">
+
+    <div class="bg-[url('../images/pattern-bg.svg')] bg-contain bg-no-repeat grid place-items-center relative
+                md:mt-11 lg:w-[702px] lg:m-0">
+      <img id="image" class="w-[80%] rounded-3xl p-6" src="../images/image-tanya.jpg" alt="image-tanya">
+      <div class="flex gap-4 w-20 h-10 bg-white rounded-full justify-center items-center absolute bottom-1 shadow-xl
+                  md:w-28 md:h-14 md:gap-6 md:bottom-0 lg:left-[140px]">
+        <img class="cursor-pointer" id="prev" src="../images/icon-prev.svg" alt="icon-prev">
+        <img class="cursor-pointer" id="next" src="../images/icon-next.svg" alt="icon-next">
+      </div>
+    </div>
+  
+    <div class="mt-6 border border-transparent relative mb-[56px]
+                md:mt-11 md:mb-[150px] lg:w-[635px] lg:absolute lg:left-0 lg:top-[130px]">
+      <img class="mx-auto w-[60px] absolute left-0 right-0 lg:w-[120px] lg:m-0 lg:left-[86px]" src="../images/pattern-quotes.svg" alt="pattern-quotes">
+      <p class="testimonial mt-[30px] w-[90%] mx-auto text-dark-blue mb-[30px]
+                md:text-3xl lg:text-left lg:text-4xl">
+        “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
+      </p>
+      <div class="flex flex-col items-center lg:ml-[30px] lg:flex-row lg:gap-4 lg:items-end">
+        <p class="name text-dark-blue font-bold md:text-2xl">Tanya Sinclair</p>
+        <p class="degree text-grayish-blue text-sm md:text-lg">UX Engineer</p>
+      </div>
+    </div>
+
+  </article>
+  
+    <script src="./main.js"></script>
+
+</body>
+</html>
